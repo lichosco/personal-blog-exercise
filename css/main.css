@@ -1,0 +1,159 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body {
+  font-family: "Raleway", sans-serif; }
+
+.bg-locks {
+  height: 100%;
+  background-image: url("../images/back-lock.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+  .bg-locks .navbar-brand {
+    width: 300px; }
+    .bg-locks .navbar-brand .logo {
+      width: 50px;
+      height: 40px;
+      display: inline;
+      margin-right: 20px;
+      margin-top: -10px; }
+  .bg-locks .text-header {
+    color: white;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    margin-top: 15%; }
+    .bg-locks .text-header h1 {
+      font-weight: bold;
+      font-size: 50px; }
+    .bg-locks .text-header p {
+      font-size: 29px; }
+
+.bg-fixed {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+section a {
+  color: #8C8C8C; }
+
+.individual-text {
+  padding: 70px 0; }
+  .individual-text .title hr {
+    width: 25%;
+    float: left;
+    border: 2px solid black; }
+  .individual-text .text {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .individual-text .text-ind-1 {
+    margin-bottom: 20px; }
+    .individual-text .text-ind-1 img {
+      display: inline-block; }
+    .individual-text .text-ind-1 .descrip {
+      margin-left: 150px;
+      margin-top: -80px; }
+
+.bg-faces {
+  padding: 70px 0;
+  height: 100%;
+  background-image: url("../images/bg3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  color: white;
+  -webkit-filter: grayscale(50%) brightness(80%); }
+  .bg-faces .title {
+    color: white;
+    font-weight: bold; }
+    .bg-faces .title hr {
+      width: 25%;
+      float: left;
+      border: 2px solid white; }
+  .bg-faces video {
+    height: 350px;
+    margin-top: -100px; }
+
+.define-me {
+  text-align: left;
+  padding: 70px 0; }
+  .define-me h4 {
+    font-weight: bold; }
+  .define-me h5 {
+    color: #8C8C8C; }
+  .define-me .title hr {
+    width: 25%;
+    float: left;
+    border: 2px solid black; }
+  .define-me .img-member {
+    width: 100%; }
+  .define-me .members-hover:hover {
+    color: #686868;
+    opacity: 0.5;
+    box-shadow: 10px 10px 5px #888888; }
+  .define-me .members-hover .bottom {
+    margin-top: 80px; }
+
+.contact .title hr {
+  width: 25%;
+  float: left;
+  border: 2px solid black; }
+.contact p {
+  margin-top: 60px;
+  margin-bottom: 80px; }
+.contact form input {
+  margin-bottom: 30px; }
+.contact form textarea {
+  height: 500px; }
+.contact button {
+  background-color: #484848;
+  color: white;
+  font-weight: bold;
+  border-style: none;
+  font-size: 12px;
+  padding: 8px 25px; }
+.contact button:hover {
+  background-color: white;
+  border: 2px solid #484848;
+  color: #484848; }
+.contact .info {
+  margin-bottom: 20px; }
+  .contact .info h3 {
+    font-weight: bold;
+    font-size: 20px; }
+  .contact .info .info-box {
+    margin-bottom: 10px; }
+    .contact .info .info-box h4 {
+      font-size: 15px;
+      font-weight: bold; }
+    .contact .info .info-box p {
+      margin-left: 80px;
+      margin-top: -25px; }
+.contact .socials {
+  margin-top: 20px; }
+  .contact .socials .link a {
+    padding-right: 20px; }
+  .contact .socials .link {
+    margin-bottom: 10px; }
+.contact .panel-group {
+  margin-top: 60px; }
+
+footer {
+  background-color: #DDDDDD;
+  padding: 40px 0; }
+  footer h5 {
+    margin-top: 50px;
+    color: #B9B9B9; }
+    footer h5 a {
+      color: #B9B9B9;
+      text-decoration: underline; }
+  footer a i {
+    margin-top: 50px;
+    margin-left: 20px;
+    color: #B9B9B9; }
+  footer .fa {
+    font-size: 20px; }
+
+@media (min-width: 500px) {
+  .define-me .bottom {
+    float: top; } }
+
+/*# sourceMappingURL=main.css.map */
